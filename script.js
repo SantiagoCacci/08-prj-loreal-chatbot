@@ -46,7 +46,7 @@ chatForm.addEventListener("submit", async (e) => {
     let aiText = "⚠️ No response from AI";
 
     try {
-      aiText = data.choices[0].message.content;
+      aiText = data.choices[0].message.content; 
     } catch (err) {
       console.error("Parsing error:", err);
     }
